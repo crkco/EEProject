@@ -1112,6 +1112,130 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "74xx:74AHC244")
+		(at 106.68 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d808ec38-b6f2-4882-abaf-25a3fd13ae1b")
+		(property "Reference" "U3"
+			(at 108.8741 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC244"
+			(at 108.8741 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit Buffer/Line Driver 3-state"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e0dc58dd-80f4-4444-9957-5462269d4190")
+		)
+		(pin "5"
+			(uuid "b969f83a-5956-4868-855f-36a6b82718cf")
+		)
+		(pin "2"
+			(uuid "5a319af2-3169-4649-8c4e-1fc16d9e04af")
+		)
+		(pin "19"
+			(uuid "59ca9185-5e31-4c8a-8bfd-b0cd78b0d99a")
+		)
+		(pin "11"
+			(uuid "4014ed2d-532e-4f95-a460-785613a7fc56")
+		)
+		(pin "17"
+			(uuid "2188e3f4-3ef1-4f9a-a3bc-818b9e9e7ac5")
+		)
+		(pin "8"
+			(uuid "d534aff1-ee8d-491d-9d99-ca1641c8c3c6")
+		)
+		(pin "13"
+			(uuid "20aa4e75-684c-4cab-b3ec-a3bcaf57f484")
+		)
+		(pin "4"
+			(uuid "1d405f2b-e8a8-48f1-8ef6-f0f708580881")
+		)
+		(pin "14"
+			(uuid "305bf51f-b79e-400f-a53e-61ff6f7619bd")
+		)
+		(pin "6"
+			(uuid "2e3eb1da-3ee9-4f8e-82ec-86104e3fa59d")
+		)
+		(pin "3"
+			(uuid "ae0d8aa2-29b5-4303-8f77-75646b7937e4")
+		)
+		(pin "1"
+			(uuid "eb879ad2-a719-4113-8047-f7c7f7b2c6c6")
+		)
+		(pin "16"
+			(uuid "b38ba8bd-085f-4707-ae9b-19ce6e5ae9fa")
+		)
+		(pin "12"
+			(uuid "5df35e87-a30a-4760-af96-4e40ec2f941d")
+		)
+		(pin "9"
+			(uuid "4059b8a0-5651-4186-8adf-97b0e5cf0ea5")
+		)
+		(pin "10"
+			(uuid "eb85789e-c3bc-4897-b9a4-e3866f3aa26c")
+		)
+		(pin "18"
+			(uuid "5ef3427b-31d1-4844-9d57-a09ccb57a0f5")
+		)
+		(pin "20"
+			(uuid "56bc679e-a24f-4002-81f3-21aca1d0fcf3")
+		)
+		(pin "15"
+			(uuid "a028fc1e-3c64-4297-9c36-ebee5bd94584")
+		)
+		(instances
+			(project ""
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
