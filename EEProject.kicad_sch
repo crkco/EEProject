@@ -1114,7 +1114,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHC244")
-		(at 106.68 138.43 0)
+		(at 43.18 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1123,7 +1123,7 @@
 		(fields_autoplaced yes)
 		(uuid "d808ec38-b6f2-4882-abaf-25a3fd13ae1b")
 		(property "Reference" "U3"
-			(at 108.8741 118.11 0)
+			(at 45.3741 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 			)
 		)
 		(property "Value" "74AHC244"
-			(at 108.8741 120.65 0)
+			(at 45.3741 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 138.43 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1150,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
-			(at 106.68 138.43 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1159,7 @@
 			)
 		)
 		(property "Description" "8-bit Buffer/Line Driver 3-state"
-			(at 106.68 138.43 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
