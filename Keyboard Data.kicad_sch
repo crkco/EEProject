@@ -1,0 +1,826 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ee06c24c-21cd-41cb-b6e8-3f214ad67f0a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74AHC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC595"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AHCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC595_1_0"
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC595_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC595")
+		(at 80.01 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "000ed6a3-77ca-46fe-92a9-14bffc277945")
+		(property "Reference" "U2"
+			(at 82.2041 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 82.2041 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a42e140f-bd63-4f7a-a9e5-492519a19a19")
+		)
+		(pin "16"
+			(uuid "c6e40cde-0e54-48ed-a397-38b6e402eba5")
+		)
+		(pin "1"
+			(uuid "6d11d67d-6b78-42f0-b6d8-c321e6e47146")
+		)
+		(pin "6"
+			(uuid "e1015603-38c2-4c2f-b678-097b844ad117")
+		)
+		(pin "8"
+			(uuid "9abfdb60-4a61-4278-89e3-239f233a6311")
+		)
+		(pin "14"
+			(uuid "4580230b-67b8-4415-9fe0-55b6d7f1e9ba")
+		)
+		(pin "15"
+			(uuid "1ab70d05-bba4-4fa8-98f1-74c958540071")
+		)
+		(pin "5"
+			(uuid "7ac15647-cb51-4491-bec4-33011ae5d354")
+		)
+		(pin "10"
+			(uuid "f85d26c4-1894-4ea9-b08d-8d2f410df0bc")
+		)
+		(pin "11"
+			(uuid "65d04784-b44f-42c4-aef2-388fedd58a59")
+		)
+		(pin "2"
+			(uuid "09fa0364-2da4-449f-8730-5f1a0c18041d")
+		)
+		(pin "12"
+			(uuid "1c41fd52-d747-4fad-8a4c-be04727bd248")
+		)
+		(pin "13"
+			(uuid "f29840f4-4040-48eb-9ccb-98269ddd1c66")
+		)
+		(pin "4"
+			(uuid "12f8c1bd-7b4c-4d7d-9696-970fc51a65f2")
+		)
+		(pin "3"
+			(uuid "36e039d8-7b6f-4241-a1b0-c34cd34bb27e")
+		)
+		(pin "9"
+			(uuid "a5ce9fa5-58e7-4139-ac92-1a0f6ca87cf3")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/8d809193-e653-4d29-afa7-1e4f3ff1e910"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC595")
+		(at 111.76 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2001bf01-a1ff-4109-96d1-675a0a454581")
+		(property "Reference" "U3"
+			(at 113.9541 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 113.9541 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "051a89a2-4c7d-4fa2-94fd-f49f80f14883")
+		)
+		(pin "16"
+			(uuid "3feeebc6-748a-4873-af27-9a7f7e139bfa")
+		)
+		(pin "1"
+			(uuid "35ee52ec-1dc7-4801-8e72-95e98b4c029f")
+		)
+		(pin "6"
+			(uuid "b8d089be-4c8f-4c6a-b0d5-753d027d0b6d")
+		)
+		(pin "8"
+			(uuid "3efe30c0-718a-4e2f-a2f6-d24830a5dc3f")
+		)
+		(pin "14"
+			(uuid "396faa4f-8e99-456b-95d3-fbdd0b003b3d")
+		)
+		(pin "15"
+			(uuid "f4f75f1b-7520-4289-aceb-588385b406e2")
+		)
+		(pin "5"
+			(uuid "0bee0a48-e92d-4a80-ba3d-6d2d7341cb8c")
+		)
+		(pin "10"
+			(uuid "174c4f73-6ea9-445c-aa7d-cd8aa398c6c3")
+		)
+		(pin "11"
+			(uuid "71a3c145-1faa-4068-8355-000919ad1330")
+		)
+		(pin "2"
+			(uuid "2472e4b5-43de-40c9-9388-f31612191c21")
+		)
+		(pin "12"
+			(uuid "20a7f431-35a7-4286-aac2-248b568d9a3d")
+		)
+		(pin "13"
+			(uuid "853e7250-ed01-43cd-a5b3-e9fc39bb6d50")
+		)
+		(pin "4"
+			(uuid "23938dab-bc69-470a-8c69-6ef2eb0bc9cd")
+		)
+		(pin "3"
+			(uuid "4e5ebba7-3c37-4542-91ed-a4cf07c3c81e")
+		)
+		(pin "9"
+			(uuid "09eb27c3-68d5-4c00-aae9-ec081aeb8b23")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/8d809193-e653-4d29-afa7-1e4f3ff1e910"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC595")
+		(at 144.78 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799c7f67-d35f-4ff9-b15e-b5021976d426")
+		(property "Reference" "U4"
+			(at 146.9741 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 146.9741 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "5208e4bb-286c-4e7e-a19d-aeea91095a42")
+		)
+		(pin "16"
+			(uuid "04e0ad4e-9748-4635-b6f9-a42475a058c9")
+		)
+		(pin "1"
+			(uuid "1b15f00b-de78-4538-b831-4186222be998")
+		)
+		(pin "6"
+			(uuid "7c3675d8-33c0-4980-b3c7-68656d4d1f7c")
+		)
+		(pin "8"
+			(uuid "8ecb0886-b333-4523-9878-1bf931400182")
+		)
+		(pin "14"
+			(uuid "2fcb8e2d-78b8-416f-9bf8-b7a518da0440")
+		)
+		(pin "15"
+			(uuid "a149c350-109a-4718-b415-4e8fc92cf64f")
+		)
+		(pin "5"
+			(uuid "65378923-d90c-45ee-bc1c-546e9d9f7d09")
+		)
+		(pin "10"
+			(uuid "9fc32090-75a5-4444-b563-4d04f76161a6")
+		)
+		(pin "11"
+			(uuid "1a347781-49c4-462d-8c80-7f5a0e18e5d8")
+		)
+		(pin "2"
+			(uuid "0de136f7-0d0c-44a7-9607-3bb3d37c001c")
+		)
+		(pin "12"
+			(uuid "9e028474-43a7-4658-839a-7024bcf8794b")
+		)
+		(pin "13"
+			(uuid "baa63acb-6a5c-4fcc-b53f-8643e4c0422b")
+		)
+		(pin "4"
+			(uuid "6ceda9b0-057f-46bd-a1db-88240362bd51")
+		)
+		(pin "3"
+			(uuid "616e499f-1c57-42b2-a829-79784f747688")
+		)
+		(pin "9"
+			(uuid "aed1734f-95ed-434f-9798-13837dd1276d")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/8d809193-e653-4d29-afa7-1e4f3ff1e910"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC595")
+		(at 176.53 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a19ac5-653f-4bc6-b48e-c07d479d2d89")
+		(property "Reference" "U5"
+			(at 178.7241 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 178.7241 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "4ff49db8-3371-4b7e-a040-a7bd14ea3cf5")
+		)
+		(pin "16"
+			(uuid "8f1ae647-d188-4633-b35e-00ab4208106d")
+		)
+		(pin "1"
+			(uuid "507aa170-343e-4180-bf78-098444d1fb26")
+		)
+		(pin "6"
+			(uuid "3c6cb2c7-3289-4d64-8330-d3df06dec999")
+		)
+		(pin "8"
+			(uuid "932c414f-18a4-46ad-a853-c3eba7859436")
+		)
+		(pin "14"
+			(uuid "d4421f48-4008-41d7-9073-53c9b6080e6a")
+		)
+		(pin "15"
+			(uuid "34f89037-e276-427a-b807-6726696773ed")
+		)
+		(pin "5"
+			(uuid "93e4bf15-0f33-4323-bc6d-a2c4038c5ba0")
+		)
+		(pin "10"
+			(uuid "2800c45b-eba2-4546-90f2-3d02255bb5fa")
+		)
+		(pin "11"
+			(uuid "0ef0f1b5-57a3-4751-abe4-5c1d4c26976e")
+		)
+		(pin "2"
+			(uuid "87756ee9-c81a-4bab-83f4-e6e22901b6b2")
+		)
+		(pin "12"
+			(uuid "8cf00ead-61ad-4186-951b-a2b8d8ede485")
+		)
+		(pin "13"
+			(uuid "8b8ca702-7ba9-4b50-a67a-382c16ede5ef")
+		)
+		(pin "4"
+			(uuid "9838f8bd-b197-4b1f-9bb3-05d11524f65e")
+		)
+		(pin "3"
+			(uuid "cde96044-bc3c-44cc-ac91-4d3cca598939")
+		)
+		(pin "9"
+			(uuid "fa4193e8-6df6-480d-b930-71fa440ae0e2")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/8d809193-e653-4d29-afa7-1e4f3ff1e910"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

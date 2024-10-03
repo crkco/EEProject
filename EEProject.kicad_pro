@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -386,6 +386,22 @@
     [
       "3aa1ef99-b297-42d2-a07b-7cd664ecf53c",
       "Root"
+    ],
+    [
+      "8d809193-e653-4d29-afa7-1e4f3ff1e910",
+      "Keyboard Data"
+    ],
+    [
+      "68f4a3e3-d8da-44c7-96f6-a77091c73787",
+      "UART to USB"
+    ],
+    [
+      "681e2464-01d4-4174-9887-b09f82d30530",
+      "Microcontroller"
+    ],
+    [
+      "6e264008-003e-45df-b626-a44fa4937de6",
+      "Boost Converter"
     ]
   ],
   "text_variables": {}
