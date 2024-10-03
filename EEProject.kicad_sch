@@ -3,31 +3,29 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "3aa1ef99-b297-42d2-a07b-7cd664ecf53c")
-	(paper "A2")
+	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -88,8 +86,30 @@
 					)
 				)
 				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -143,7 +163,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -344,7 +364,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -402,7 +422,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -528,7 +548,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -536,6 +556,42 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,6 +628,179 @@
 						)
 					)
 					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,21 +907,93 @@
 			)
 		)
 	)
+	(junction
+		(at 76.2 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d735934-ad92-4b87-9d58-48ac33396a80")
+	)
+	(junction
+		(at 76.2 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d6bb53-b2f8-4cbd-ad7f-faf210df09c9")
+	)
 	(no_connect
-		(at 321.31 148.59)
+		(at 76.2 135.89)
 		(uuid "6f6f1a78-7809-4c25-82c6-3bef75ef2d00")
 	)
 	(no_connect
-		(at 298.45 181.61)
+		(at 53.34 168.91)
 		(uuid "99a350e3-847f-4cf1-809e-606654948744")
 	)
 	(no_connect
-		(at 321.31 151.13)
+		(at 76.2 138.43)
 		(uuid "d9231599-c47a-41c3-a716-08f9d5305b64")
+	)
+	(wire
+		(pts
+			(xy 80.01 130.81) (xy 76.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd22aee-ac67-4c96-a6cb-05cfc4af5efa")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 76.2 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb3bfcf-1655-4038-b756-d80426866be7")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 80.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0c8883-1fa9-4adf-86fa-9368fc18f4e1")
+	)
+	(wire
+		(pts
+			(xy 76.2 143.51) (xy 80.01 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eea0c5a-a730-430a-ab64-d84d69467b42")
+	)
+	(wire
+		(pts
+			(xy 76.2 143.51) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd34f2d8-6aa6-4496-86d5-fcddabea25c3")
+	)
+	(wire
+		(pts
+			(xy 60.96 170.18) (xy 60.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2789d95-b4ae-4925-afba-b15c1db8be4e")
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 321.31 143.51 0)
+		(at 90.17 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -704,7 +1005,7 @@
 		)
 		(uuid "493b77d7-dc79-4f21-8e41-7a2099c5b074")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.6698 143.51 0)
+			(at 98.5298 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +1017,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 321.31 156.21 0)
+		(at 80.01 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -728,7 +1029,7 @@
 		)
 		(uuid "c0ab2b2d-c6c5-4819-b58d-da32ad8b5094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.6136 156.21 0)
+			(at 86.3136 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +1041,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 321.31 161.29 0)
+		(at 80.01 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -752,7 +1053,7 @@
 		)
 		(uuid "d8317703-30ea-48d8-a80f-21050281fd02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.6136 161.29 0)
+			(at 86.3136 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,109 +1064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 306.07 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1faf7164-0330-4825-9b0f-9104fb9e61a6")
-		(property "Reference" "P1"
-			(at 306.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 306.07 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
-			(at 309.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 309.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 306.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "0f2b8f3b-dcb8-4b25-9db8-a3ce5d9f1e03")
-		)
-		(pin "B12"
-			(uuid "48393b77-7e79-4f69-8743-8964210feba1")
-		)
-		(pin "B1"
-			(uuid "7d00fd42-0bfd-4f74-9397-585777d5590c")
-		)
-		(pin "B9"
-			(uuid "4697e9b7-8b0b-43e6-87a0-931aaa52b87b")
-		)
-		(pin "A12"
-			(uuid "22e3ec06-9f73-472e-94d8-9d7574963abb")
-		)
-		(pin "A4"
-			(uuid "cdad93a4-ccd0-41e6-83d7-7a73814a109f")
-		)
-		(pin "S1"
-			(uuid "f127ed64-3c87-4468-96cb-16a663eee8a6")
-		)
-		(pin "A5"
-			(uuid "40079b32-a642-4df3-a7a2-52a198718764")
-		)
-		(pin "B5"
-			(uuid "5d1a0377-d6d4-45e0-b662-fc5145f03a7d")
-		)
-		(pin "A9"
-			(uuid "9f66b876-1384-415e-8b2d-f489f1ad2f0f")
-		)
-		(pin "A7"
-			(uuid "61304daf-82e8-4aed-abe5-fc34bd7e987f")
-		)
-		(pin "A6"
-			(uuid "c5d333a5-91d9-4f26-9c73-f438d91c1fb1")
-		)
-		(pin "B4"
-			(uuid "e9acdaf1-e802-42b0-ba8f-0b6e45d96f67")
-		)
-		(instances
-			(project ""
-				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 306.07 181.61 0)
+		(at 60.96 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -874,7 +1074,7 @@
 		(fields_autoplaced yes)
 		(uuid "23128fad-0f2b-4824-86cc-64b03b14aa5b")
 		(property "Reference" "#PWR01"
-			(at 306.07 187.96 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +1083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 186.69 0)
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +1091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 181.61 0)
+			(at 60.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 181.61 0)
+			(at 60.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 181.61 0)
+			(at 60.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,8 +1129,186 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 85.09 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39dd032a-b6be-4ef7-bf2a-6500fda1892f")
+		(property "Reference" "SW1"
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe04e103-2dcd-4a07-80f7-f678d810916f")
+		)
+		(pin "3"
+			(uuid "19126746-ee99-422f-8088-47444e8e14d1")
+		)
+		(pin "1"
+			(uuid "1625b266-ba23-4ad8-999c-c1620f5fa63e")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 60.96 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed509135-82d2-4c88-8af9-4ebb76cd869e")
+		(property "Reference" "J2"
+			(at 60.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "64e82e5d-2b94-4b6b-918e-2f326cee5051")
+		)
+		(pin "B12"
+			(uuid "0edf7634-95c0-442c-a5c9-7a478ae4162e")
+		)
+		(pin "A9"
+			(uuid "1c476639-f3d8-478f-a83f-9e581827c450")
+		)
+		(pin "A4"
+			(uuid "9d43c4bc-5c29-47dc-86e7-8d7729634dac")
+		)
+		(pin "B1"
+			(uuid "cc11ebd1-306a-4f57-8e51-09ff78b95fa3")
+		)
+		(pin "B7"
+			(uuid "825e6d2c-4f8c-4339-8277-b9fcdb16ce80")
+		)
+		(pin "A1"
+			(uuid "970c0ffc-0343-45ce-a03b-6c638f333641")
+		)
+		(pin "A7"
+			(uuid "9f627a98-8cf7-403c-bf0e-0f076df18288")
+		)
+		(pin "B6"
+			(uuid "c37acea3-0c37-4cce-a930-87739148f59b")
+		)
+		(pin "S1"
+			(uuid "45cb3868-4ca5-4185-8e02-36d1e4c92cc1")
+		)
+		(pin "A12"
+			(uuid "0fc22c23-630c-4a8d-b121-aed1d35babef")
+		)
+		(pin "A5"
+			(uuid "1931ae71-3e1e-4985-8d13-059fd1d50dfe")
+		)
+		(pin "A6"
+			(uuid "64d60f32-b09f-453b-9608-7d57de2158da")
+		)
+		(pin "B9"
+			(uuid "56a8aa6b-0abf-494e-bb63-1c7b3731d06f")
+		)
+		(pin "B5"
+			(uuid "ef13e094-bb41-4592-b3c9-cf7431202ed3")
+		)
+		(instances
+			(project ""
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 312.42 76.2)
+		(at 88.9 24.13)
 		(size 30.48 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -942,7 +1320,7 @@
 		)
 		(uuid "681e2464-01d4-4174-9887-b09f82d30530")
 		(property "Sheetname" "Microcontroller"
-			(at 312.42 75.4884 0)
+			(at 88.9 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +1329,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 312.42 95.8346 0)
+			(at 88.9 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,7 +1346,7 @@
 		)
 	)
 	(sheet
-		(at 246.38 76.2)
+		(at 22.86 24.13)
 		(size 30.48 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -980,7 +1358,7 @@
 		)
 		(uuid "68f4a3e3-d8da-44c7-96f6-a77091c73787")
 		(property "Sheetname" "UART to USB"
-			(at 246.38 75.4884 0)
+			(at 22.86 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +1367,7 @@
 			)
 		)
 		(property "Sheetfile" "UART to USB.kicad_sch"
-			(at 246.38 95.8346 0)
+			(at 22.86 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1384,7 @@
 		)
 	)
 	(sheet
-		(at 345.44 76.2)
+		(at 121.92 24.13)
 		(size 30.48 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -1018,7 +1396,7 @@
 		)
 		(uuid "6e264008-003e-45df-b626-a44fa4937de6")
 		(property "Sheetname" "Boost Converter"
-			(at 345.44 75.4884 0)
+			(at 121.92 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1405,7 @@
 			)
 		)
 		(property "Sheetfile" "Boost Converter.kicad_sch"
-			(at 345.44 95.8346 0)
+			(at 121.92 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1422,7 @@
 		)
 	)
 	(sheet
-		(at 279.4 76.2)
+		(at 55.88 24.13)
 		(size 30.48 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -1056,7 +1434,7 @@
 		)
 		(uuid "8d809193-e653-4d29-afa7-1e4f3ff1e910")
 		(property "Sheetname" "Keyboard Data"
-			(at 279.4 75.4884 0)
+			(at 55.88 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1443,7 @@
 			)
 		)
 		(property "Sheetfile" "Keyboard Data.kicad_sch"
-			(at 279.4 95.8346 0)
+			(at 55.88 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

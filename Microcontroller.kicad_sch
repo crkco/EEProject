@@ -666,9 +666,19 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 100.33 62.23) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fd6b8f-0a53-4964-9327-b237ee79aaa5")
+	)
 	(global_label "VCC"
 		(shape input)
-		(at 100.33 67.31 90)
+		(at 100.33 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -680,7 +690,7 @@
 		)
 		(uuid "f7108a0c-6559-4262-83f0-be5ab49cd52f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 60.2202 90)
+			(at 100.33 55.1402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
