@@ -4063,6 +4063,116 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Amplifier_Audio:IR4301")
+		(at 200.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade67387-d616-4035-ae35-7b0b8a54a910")
+		(property "Reference" "U7"
+			(at 207.9341 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR4301"
+			(at 207.9341 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "62003716-7827-47f3-ad78-be22d92bbbe2")
+		)
+		(pin "6"
+			(uuid "413f56ad-39f7-464e-ba27-b101585f3f27")
+		)
+		(pin "10"
+			(uuid "02d38273-da16-4922-a32b-40660cc46093")
+		)
+		(pin "12"
+			(uuid "909b080e-aa24-4844-a282-06f95ce5c29c")
+		)
+		(pin "3"
+			(uuid "c209ae8d-78d2-4532-b164-72e9fa93f224")
+		)
+		(pin "11"
+			(uuid "167015a1-16cd-47ca-a5fb-a4b999edee75")
+		)
+		(pin "8"
+			(uuid "98944a98-4cef-4fe6-9606-6ae406b4445f")
+		)
+		(pin "1"
+			(uuid "c89a053c-4cc6-4d23-82da-e458e18629b6")
+		)
+		(pin "9"
+			(uuid "a5a584ef-392f-4b91-81ed-4d7a854ed24e")
+		)
+		(pin "2"
+			(uuid "0f134222-0008-407c-b48f-a957fa16cb7a")
+		)
+		(pin "7"
+			(uuid "eb4ea8c8-f2f8-4ca8-ba0e-73e1a9b91bb5")
+		)
+		(pin "14"
+			(uuid "a9bd0d19-790a-4fa0-8bf9-be4c15443ab5")
+		)
+		(pin "13"
+			(uuid "7758edcc-92ef-4239-96c6-2f51a7661bdc")
+		)
+		(pin "15"
+			(uuid "9ca9a0b5-70fc-4212-9505-fbf067388b13")
+		)
+		(pin "4"
+			(uuid "6fdf05b8-e09e-45dd-87f8-09cbfe87fdb8")
+		)
+		(instances
+			(project "EEProject"
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
