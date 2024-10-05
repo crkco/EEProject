@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N14"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3737,7 +3737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N14"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 111.76 86.36 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N14"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 111.76 139.7 0)
 			(effects
 				(font
