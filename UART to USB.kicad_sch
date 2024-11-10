@@ -1634,6 +1634,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 36.83) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ead56b-455f-4c85-b53e-a5d022c6b751")
+	)
+	(wire
+		(pts
 			(xy 144.78 86.36) (xy 148.59 86.36)
 		)
 		(stroke
@@ -1731,6 +1741,16 @@
 			(type default)
 		)
 		(uuid "8b31c631-a14c-4aa0-8a62-5cddf0254d71")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b89cd9-57aa-49b1-8abb-edf2ec72e370")
 	)
 	(wire
 		(pts
@@ -1841,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "cfacea1a-1344-4df8-bb8a-119ecac691c6")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bb3eac-801d-4a93-8c4d-0015470ba7e0")
 	)
 	(wire
 		(pts
@@ -1974,6 +2004,28 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 168.91 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cdc7b30-f252-4289-80de-2064f96e8493")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 30.2162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 92.71 74.93 180)
@@ -2084,6 +2136,28 @@
 			)
 		)
 	)
+	(global_label "RTS"
+		(shape input)
+		(at 171.45 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a76c7283-7660-4db3-a609-5d3f789faab7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8823 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TXD"
 		(shape input)
 		(at 135.89 54.61 0)
@@ -2152,7 +2226,7 @@
 			)
 		)
 	)
-	(global_label "RST"
+	(global_label "RTS"
 		(shape input)
 		(at 135.89 59.69 0)
 		(fields_autoplaced yes)
@@ -2946,6 +3020,76 @@
 			(project "EEProject"
 				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/68f4a3e3-d8da-44c7-96f6-a77091c73787"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ee563c-ac48-4b59-b491-f8577ebb59ec")
+		(property "Reference" "R6"
+			(at 171.45 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 171.45 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.132 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f76d2bae-1270-486e-817e-f215d8218354")
+		)
+		(pin "1"
+			(uuid "0887edc4-6783-40f7-9ee2-70569b557593")
+		)
+		(instances
+			(project ""
+				(path "/3aa1ef99-b297-42d2-a07b-7cd664ecf53c/68f4a3e3-d8da-44c7-96f6-a77091c73787"
+					(reference "R6")
 					(unit 1)
 				)
 			)
